@@ -2,7 +2,7 @@ import { combineReducers } from "redux";
 import accountReducer from "./accountReducer";
 
 const reducers = combineReducers({
-  account: accountReducer,
+  accountBalance: accountReducer,
 });
 
 export default reducers;
